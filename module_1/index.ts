@@ -1,5 +1,9 @@
-const me: string = "sadnan";
+type user = { name: string; age: number; gender: string };
 
-let id: number = 12412412;
+const obj: user = {
+  name: "Sadnan",
+  age: 23,
+  gender: "male",
+};
 
-console.log(me);
+console.log(obj);
